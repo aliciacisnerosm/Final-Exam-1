@@ -36,6 +36,7 @@ class BookForm extends React.Component {
   }
   onchangeTerm(e) {
     console.log(e);
+    //console.log(e);
     this.setState({ term: e.target.value });
   }
 
